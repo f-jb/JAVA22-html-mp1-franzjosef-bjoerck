@@ -14,12 +14,28 @@
         <a href="inspiration.html">Inspiration</a>
   </header>
     <main>
-        <h5>Contact Form</h5>  
-        <div class="form">
-          
-        </div>
+        <form action="" method="get" class="contact-form">
+        <fieldset>
+          <h5><legend>Contact Form</legend></h5>
+  <div class="contact-form">
+    <label for="name">Namn: </label>
+    <input type="text" name="name" id="name" required>
+  </div>
+  <div class="contact-form">
+    <label for="email">Mejl: </label>
+    <input type="email" name="email" id="email" required>
+  </div>
+  <div class="contact-form">
+    <label for="text">Meddelande: </label>
+    <input type="text" name="text" id="text" required>
+  </div>
+  <div class="contact-form">
+    <input type="submit" value="Skicka!">
+  </div>
+  </fieldset>
+</form>
     </main>
-	<script src="js/index.js"></script>
+	<script src="../js/index.js"></script>
   </body>
 </html>
 
